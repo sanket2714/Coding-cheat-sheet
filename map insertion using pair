@@ -1,0 +1,13 @@
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main() {
+    map<int,int> mp;
+	mp.insert(pair<int,int>(1,40));
+	mp.insert(pair<int,int>(2,60));
+	mp.insert(pair<int,int>(3,80));
+	for(auto i=mp.begin();i!=mp.end();i++){
+	    cout<<i->first<<" "<<i->second<<endl;
+	}
+}
