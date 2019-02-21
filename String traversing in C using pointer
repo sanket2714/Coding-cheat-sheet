@@ -1,0 +1,12 @@
+#include<stdio.h>
+
+int main() {
+   char *str="abcdefgh"; //reference to the first element of string 
+   //iterate string one by one pointing to each element
+   
+   while(*str){ 
+       printf("%c\n",*str);
+       ++str; // increment the pointer
+   }
+   return 0;
+}
