@@ -1,0 +1,21 @@
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main() {
+    string s;
+    cin>>s;
+    map<char,int> mp;
+    for(auto c:s){
+        if(mp.find(c)==mp.end()){
+            mp[c]=1;
+        }
+        else{
+            mp[c]++;
+        }
+    }
+	for(auto i=mp.begin();i!=mp.end();i++){
+	    cout<<i->first<<" "<<i->second<<endl;
+	}
+  return 0;
+}
