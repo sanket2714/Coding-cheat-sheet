@@ -8,3 +8,7 @@
 #define loop(i,a,n) for(long long int i=a; i<n; i++)
 #define rloop(i,a,n) for(long long int i=a; i>=n; i--)
 #define endl "\n";
+#define vcll vector<ll> 
+#define mpl map<ll>
+#define mpll map<ll,ll>
+#define mpls map<ll,string>
