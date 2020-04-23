@@ -4,7 +4,7 @@
 #define FASTIO ios_base::sync_with_stdio(false); cout.tie(NULL); cin.tie(NULL);
 
 //initializers
-const MOD = 1e9+7;
+#define MOD 1e9+7;
 #define IN cin>>
 #define OUT cout<<
 #define ll long long
@@ -20,6 +20,7 @@ const MOD = 1e9+7;
 #define mpl map<ll>
 #define mpll map<ll,ll>
 #define mpls map<ll,string>
+#define graph(n) vector<int> adj[n]
 
 //operations
 #define mp make_pair
@@ -28,3 +29,4 @@ const MOD = 1e9+7;
 #define pub push_back
 #define pob pop_back
 #define eb emplace_back
+#define debug cout<<"debugging"<<endl
