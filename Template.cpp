@@ -30,3 +30,36 @@
 #define pob pop_back
 #define eb emplace_back
 #define debug cout<<"debugging"<<endl
+#define in(n) ll n;cin>>n
+
+usinh namespace std;
+
+//usefull functions
+
+//prime using sieve
+vll prime;
+ll seive(ll n){
+    bool p[n+1];
+    memset(p,1,sizeof(p));
+    for(ll i=2;i*i<=n;i++){
+        if(p[i]){
+            for(ll j=i*2;j<=n;j+=i){
+                p[j]=false;
+            }
+        }
+    }
+    for(ll i=2;i<=n;i++) 
+      if(p[i]) 
+        prime.pb(i);
+}
+
+
+//driver function
+int main(){
+  ll t;
+  IN t;
+  while(t--){
+  
+  } 
+  return 0;
+}
