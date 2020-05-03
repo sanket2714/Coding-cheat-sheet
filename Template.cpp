@@ -32,7 +32,7 @@
 #define debug cout<<"debugging"<<endl
 #define in(n) ll n;cin>>n
 
-usinh namespace std;
+using namespace std;
 
 //usefull functions
 
